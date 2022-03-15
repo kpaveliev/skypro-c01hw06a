@@ -6,6 +6,7 @@ tests.py
 01_kilometers.txt
 03_passed.txt
 03_failed.txt
+06_todo_new.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

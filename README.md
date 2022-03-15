@@ -8,7 +8,7 @@
 4. 04_teller.py - teller class
 5. 05_coins.py - coins conversion
 6. 06_lidar.py - autopilot
-
+7. 07_todolist.py - checking todo list
 
 Kirill Paveliev \
 March 2022
