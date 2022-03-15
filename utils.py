@@ -1,10 +1,14 @@
 import csv
 
+def open_txt(filename):
+    with open(filename, 'r', encoding='utf-8') as file:
+        data = file.read()
+    return data
+
 def write_to_txt(filename, data):
     with open(filename, 'w', encoding='utf-8') as file:
         for value in data:
             file.writelines(f'{value}\n')
-
 
 def read_csv(filename):
     with open(filename, 'r', encoding='utf-8') as file:
